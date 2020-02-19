@@ -1,0 +1,33 @@
+.wrapper{
+    border: 1px solid #c1eb9f;
+    width: 880px;
+    height: 650px;
+    margin: 0 25px 25px 25px;
+
+}
+.header{
+    background-color:#c1eb9f;
+    display: flex;
+    height: 30px;
+    padding-top: 15px;
+}
+.header p{
+    padding-right: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.forsub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.has-sub:hover .submenu{
+    display: flex;
+    justify-content: center;
+}
+.submenu{
+    display: none;
+    flex-direction: column;
+    margin: 10px -15px;
+    background-color:#c1eb9f;
+}
